@@ -79,15 +79,16 @@ def registerSuccess():
     # app.logger.info('Info level log')
     # app.logger.warning('Warning level log')
     if request.method == "POST":
-        name = request.form.get('name')
+        id = request.form.get('id')
         email = request.form.get('email')
         password = request.form.get('password')
-
+        name = request.form.get('name')
+        username=request.form.get('username')
         #hashing the password before storing
         hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
         hashedPassword = hashedPassword.hexdigest()
 
-        entry = Users(name=name,email=email,password=hashedPassword)
+        entry = Users(id=id,email=email,password=hashedPassword,name=name,username=username)
         db.session.add(entry)
         db.session.commit()
     return render_template('login.html')

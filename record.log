@@ -125,3 +125,52 @@
 2021-12-07 11:11:36,956 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 11:11:36] "[31m[1mGET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicHJhc2hhbnRAeHl6LmNvbSIsImV4cCI6MTYzODg1NTY3Nn0.MF5880xWFeqg8e-CHKl161hA-u0J11omULjckBZ3KiY HTTP/1.1[0m" 401 -
 2021-12-07 11:13:04,122 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
 2021-12-07 11:13:04,211 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:42:25,597 INFO werkzeug MainThread :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 12:42:25,598 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:42:25,963 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:42:25,963 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:43:50,871 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/models.py', reloading
+2021-12-07 12:43:50,945 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:43:51,287 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:43:51,287 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:43:57,909 INFO werkzeug MainThread :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 12:43:57,909 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:43:58,235 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:43:58,235 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:44:25,116 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/models.py', reloading
+2021-12-07 12:44:25,187 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:44:49,914 INFO werkzeug MainThread :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 12:44:49,915 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:44:50,240 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:44:50,240 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:45:30,472 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 12:45:30] "[32mGET /register HTTP/1.1[0m" 308 -
+2021-12-07 12:45:30,482 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 12:45:30] "GET /register/ HTTP/1.1" 200 -
+2021-12-07 12:45:30,550 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 12:45:30] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-07 12:45:30,566 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 12:45:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-07 12:47:09,230 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 12:47:09] "[35m[1mPOST /registersuccess HTTP/1.1[0m" 500 -
+2021-12-07 12:47:09,260 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 12:47:09] "GET /registersuccess?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-07 12:47:09,262 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Dec/2021 12:47:09] "GET /registersuccess?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-07 12:47:09,278 INFO werkzeug Thread-9 : 127.0.0.1 - - [07/Dec/2021 12:47:09] "GET /registersuccess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-07 12:47:09,343 INFO werkzeug Thread-10 : 127.0.0.1 - - [07/Dec/2021 12:47:09] "GET /registersuccess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-07 12:47:34,422 INFO werkzeug Thread-11 : 127.0.0.1 - - [07/Dec/2021 12:47:34] "[35m[1mPOST /registersuccess HTTP/1.1[0m" 500 -
+2021-12-07 12:47:34,448 INFO werkzeug Thread-12 : 127.0.0.1 - - [07/Dec/2021 12:47:34] "GET /registersuccess?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-07 12:47:34,449 INFO werkzeug Thread-13 : 127.0.0.1 - - [07/Dec/2021 12:47:34] "GET /registersuccess?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-07 12:47:34,463 INFO werkzeug Thread-14 : 127.0.0.1 - - [07/Dec/2021 12:47:34] "GET /registersuccess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-07 12:47:41,477 INFO werkzeug Thread-15 : 127.0.0.1 - - [07/Dec/2021 12:47:41] "[35m[1mPOST /registersuccess HTTP/1.1[0m" 500 -
+2021-12-07 12:47:41,501 INFO werkzeug Thread-16 : 127.0.0.1 - - [07/Dec/2021 12:47:41] "GET /registersuccess?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-07 12:47:41,501 INFO werkzeug Thread-17 : 127.0.0.1 - - [07/Dec/2021 12:47:41] "GET /registersuccess?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-07 12:47:41,513 INFO werkzeug Thread-18 : 127.0.0.1 - - [07/Dec/2021 12:47:41] "GET /registersuccess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-07 12:48:55,065 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/app.py', reloading
+2021-12-07 12:48:55,144 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:48:55,495 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:48:55,495 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:49:01,368 INFO werkzeug MainThread :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 12:49:01,369 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 12:49:01,732 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 12:49:01,732 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 12:49:06,646 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 12:49:06] "POST /registersuccess HTTP/1.1" 200 -
+2021-12-07 12:49:06,668 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 12:49:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 12:53:12,122 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 12:53:12] "GET /register/ HTTP/1.1" 200 -
+2021-12-07 12:53:12,149 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 12:53:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 12:55:05,272 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/models.py', reloading
+2021-12-07 12:55:05,344 INFO werkzeug MainThread :  * Restarting with stat
