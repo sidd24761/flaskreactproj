@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="text-align: center; margin-top: 150px;">
+<form action="/admin/updatesuccess" method="POST">
+<input type="text" name="id" placeholder="id"><br>
+<input type="text" name="title" placeholder="Title"><br>
+<input type="text" name="tags" placeholder="tags"><br>
+<input type="text" name="categories" placeholder="categories"><br>
+<input type="text" name="link" placeholder="link"><br>
+<input type="text" name="type" placeholder="blog/video/etc"><br>
+<input type="text" name="featured" placeholder="featured"><br>
+<input type="text" name="levels" placeholder="levels"><br>
+<input type="submit" id="Submit" value="Update">
+</form>
+
+
+
+</body>
+</html>

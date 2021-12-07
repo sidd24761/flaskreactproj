@@ -174,3 +174,32 @@
 2021-12-07 12:53:12,149 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 12:53:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2021-12-07 12:55:05,272 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/models.py', reloading
 2021-12-07 12:55:05,344 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 13:10:37,239 INFO werkzeug MainThread :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 13:10:37,240 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 13:10:37,580 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 13:10:37,580 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 13:10:47,806 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 13:10:47] "GET /register/ HTTP/1.1" 200 -
+2021-12-07 13:10:47,829 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 13:10:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 13:11:36,210 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 13:11:36] "POST /registersuccess HTTP/1.1" 200 -
+2021-12-07 13:11:36,243 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 13:11:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 13:12:01,884 INFO models Thread-6 : Info level log
+2021-12-07 13:12:01,884 WARNING models Thread-6 : Warning level log
+2021-12-07 13:12:01,889 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 13:12:01] "GET / HTTP/1.1" 200 -
+2021-12-07 13:12:01,929 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 13:12:01] "GET /static/footer.css HTTP/1.1" 200 -
+2021-12-07 13:12:01,932 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Dec/2021 13:12:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 13:13:03,854 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/app.py', reloading
+2021-12-07 13:13:03,915 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 13:13:04,265 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 13:13:04,265 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 13:15:05,162 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 13:15:05] "[33mGET /admin HTTP/1.1[0m" 404 -
+2021-12-07 13:15:42,213 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/models.py', reloading
+2021-12-07 13:15:42,274 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 13:15:42,643 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 13:15:42,644 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 13:16:30,180 INFO werkzeug MainThread :  * Detected change in '/home/i1617/Desktop/Backend/Flask/flask2/flaskreactproj/app.py', reloading
+2021-12-07 13:16:30,240 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 13:16:30,621 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 13:16:30,622 INFO werkzeug MainThread :  * Debugger PIN: 185-039-600
+2021-12-07 13:16:35,440 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 13:16:35] "[31m[1mGET /adminlogin HTTP/1.1[0m" 405 -
+2021-12-07 13:17:28,115 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 13:17:28] "GET /admin/update HTTP/1.1" 200 -
+2021-12-07 13:17:28,138 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 13:17:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

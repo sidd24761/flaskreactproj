@@ -109,8 +109,44 @@ def loginSucess():
                 print("Token ",token)
                 return make_response(jsonify({'jwt' : token}), 201)
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
+@app.route('/adminlogin' , methods=['POST'])
+def adminlogin():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+        #hashing the input and comparing the hash
+        hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
+        hashedPassword = hashedPassword.hexdigest()
+        result = db.session.query(Admins).filter(Admins.email==email, Admins.password==password)
+        for row in result:
+            if (len(row.email)!=0):
+                print(row.email)
+                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
+                print("Token ",token)
+                return make_response(jsonify({'jwt' : token}), 201)
+    return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
+@app.route('/admin/update')
+def update():
+    return render_template('adminupdate.html')
 
+@app.route('/admin/updatesuccess',methods=['POST'])
+@token_required
+def adminUpdate(current_user):
+    if request.method == "POST":
+        id = request.form.get('name')
+        title = request.form.get('email')
+        tags = request.form.get('password')
+        categories = request.form.get('categories')
+        link = request.form.get('link')
+        type = request.form.get('type')
+        featured = request.form.get('featured')
+        levels = request.form.get('levels')
+        
+        info = Information(id=id,title=title,tags=tags,categories=categories,link=link,type=type,featured=featured,levels=levels)
+        db.session.add(info)
+        db.session.commit()
 
+    return render_template('dashboard.html', data=current_user)
 @app.route('/dashboard')
 @token_required
 def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=
