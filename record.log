@@ -1,0 +1,127 @@
+2021-12-07 08:12:07,812 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 08:12:07,822 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 08:12:08,036 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 08:13:06,676 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 08:13:07,366 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 08:13:07,373 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 08:13:07,574 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 08:13:20,549 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 08:13:20] "[31m[1mGET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicHJhc2hhbnRAeHl6LmNvbSIsImV4cCI6MTYzODg0NDQwMX0.zE59dMN11Sn6YKH7W-xcuNoYyd7lyFHWv_7QRr7vhQI HTTP/1.1[0m" 401 -
+2021-12-07 08:13:26,169 INFO models Thread-3 : Info level log
+2021-12-07 08:13:26,169 WARNING models Thread-3 : Warning level log
+2021-12-07 08:13:26,173 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 08:13:26] "GET / HTTP/1.1" 200 -
+2021-12-07 08:13:26,405 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 08:13:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:14:56,840 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 08:14:57,559 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 08:14:57,566 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 08:14:57,770 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 08:15:21,074 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 08:15:21] "[33mGET /ok HTTP/1.1[0m" 404 -
+2021-12-07 08:19:24,525 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 08:19:25,259 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 08:19:25,267 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 08:19:25,468 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 08:22:06,752 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 08:22:06] "GET /test HTTP/1.1" 200 -
+2021-12-07 08:23:12,369 INFO models Thread-4 : Info level log
+2021-12-07 08:23:12,369 WARNING models Thread-4 : Warning level log
+2021-12-07 08:23:12,376 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 08:23:12] "GET / HTTP/1.1" 200 -
+2021-12-07 08:23:46,961 INFO models Thread-5 : Info level log
+2021-12-07 08:23:46,961 WARNING models Thread-5 : Warning level log
+2021-12-07 08:23:46,978 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 08:23:46] "GET / HTTP/1.1" 200 -
+2021-12-07 08:23:47,214 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 08:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:28:43,343 INFO models Thread-7 : Info level log
+2021-12-07 08:28:43,344 WARNING models Thread-7 : Warning level log
+2021-12-07 08:28:43,366 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 08:28:43] "GET / HTTP/1.1" 200 -
+2021-12-07 08:28:43,393 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Dec/2021 08:28:43] "GET /static/footer.css HTTP/1.1" 200 -
+2021-12-07 08:28:43,396 INFO werkzeug Thread-9 : 127.0.0.1 - - [07/Dec/2021 08:28:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:04,839 INFO models Thread-10 : Info level log
+2021-12-07 08:29:04,839 WARNING models Thread-10 : Warning level log
+2021-12-07 08:29:04,846 INFO werkzeug Thread-10 : 127.0.0.1 - - [07/Dec/2021 08:29:04] "GET / HTTP/1.1" 200 -
+2021-12-07 08:29:04,871 INFO werkzeug Thread-12 : 127.0.0.1 - - [07/Dec/2021 08:29:04] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:04,871 INFO werkzeug Thread-11 : 127.0.0.1 - - [07/Dec/2021 08:29:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:12,946 INFO models Thread-13 : Info level log
+2021-12-07 08:29:12,946 WARNING models Thread-13 : Warning level log
+2021-12-07 08:29:12,952 INFO werkzeug Thread-13 : 127.0.0.1 - - [07/Dec/2021 08:29:12] "GET / HTTP/1.1" 200 -
+2021-12-07 08:29:12,981 INFO werkzeug Thread-15 : 127.0.0.1 - - [07/Dec/2021 08:29:12] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:12,982 INFO werkzeug Thread-14 : 127.0.0.1 - - [07/Dec/2021 08:29:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:21,281 INFO models Thread-16 : Info level log
+2021-12-07 08:29:21,281 WARNING models Thread-16 : Warning level log
+2021-12-07 08:29:21,290 INFO werkzeug Thread-16 : 127.0.0.1 - - [07/Dec/2021 08:29:21] "GET / HTTP/1.1" 200 -
+2021-12-07 08:29:21,315 INFO werkzeug Thread-17 : 127.0.0.1 - - [07/Dec/2021 08:29:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:21,317 INFO werkzeug Thread-18 : 127.0.0.1 - - [07/Dec/2021 08:29:21] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:38,291 INFO models Thread-19 : Info level log
+2021-12-07 08:29:38,292 WARNING models Thread-19 : Warning level log
+2021-12-07 08:29:38,295 INFO werkzeug Thread-19 : 127.0.0.1 - - [07/Dec/2021 08:29:38] "GET / HTTP/1.1" 200 -
+2021-12-07 08:29:38,320 INFO werkzeug Thread-20 : 127.0.0.1 - - [07/Dec/2021 08:29:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:29:38,321 INFO werkzeug Thread-21 : 127.0.0.1 - - [07/Dec/2021 08:29:38] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:30:01,738 INFO models Thread-22 : Info level log
+2021-12-07 08:30:01,738 WARNING models Thread-22 : Warning level log
+2021-12-07 08:30:01,741 INFO werkzeug Thread-22 : 127.0.0.1 - - [07/Dec/2021 08:30:01] "GET / HTTP/1.1" 200 -
+2021-12-07 08:30:01,764 INFO werkzeug Thread-23 : 127.0.0.1 - - [07/Dec/2021 08:30:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:30:01,764 INFO werkzeug Thread-24 : 127.0.0.1 - - [07/Dec/2021 08:30:01] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:35:51,656 INFO models Thread-25 : Info level log
+2021-12-07 08:35:51,656 WARNING models Thread-25 : Warning level log
+2021-12-07 08:35:51,657 INFO werkzeug Thread-25 : 127.0.0.1 - - [07/Dec/2021 08:35:51] "GET / HTTP/1.1" 200 -
+2021-12-07 08:35:51,688 INFO werkzeug Thread-26 : 127.0.0.1 - - [07/Dec/2021 08:35:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:35:51,688 INFO werkzeug Thread-27 : 127.0.0.1 - - [07/Dec/2021 08:35:51] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 08:35:55,802 INFO werkzeug Thread-28 : 127.0.0.1 - - [07/Dec/2021 08:35:55] "GET /register/ HTTP/1.1" 200 -
+2021-12-07 08:35:55,842 INFO werkzeug Thread-29 : 127.0.0.1 - - [07/Dec/2021 08:35:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 08:36:17,689 INFO werkzeug Thread-30 : 127.0.0.1 - - [07/Dec/2021 08:36:17] "POST /registersuccess HTTP/1.1" 200 -
+2021-12-07 08:36:17,715 INFO werkzeug Thread-31 : 127.0.0.1 - - [07/Dec/2021 08:36:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 09:33:35,462 INFO models MainThread : Info level log
+2021-12-07 09:33:35,462 WARNING models MainThread : Warning level log
+2021-12-07 09:34:19,679 INFO models MainThread : Info level log
+2021-12-07 09:34:19,679 WARNING models MainThread : Warning level log
+2021-12-07 09:40:30,346 INFO models MainThread : Info level log
+2021-12-07 09:40:30,346 WARNING models MainThread : Warning level log
+2021-12-07 09:40:45,434 INFO models MainThread : Info level log
+2021-12-07 09:40:45,434 WARNING models MainThread : Warning level log
+2021-12-07 10:29:55,612 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 10:29:56,500 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 10:29:56,524 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 10:29:56,992 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 10:30:16,597 INFO models Thread-2 : Info level log
+2021-12-07 10:30:16,597 WARNING models Thread-2 : Warning level log
+2021-12-07 10:30:16,626 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 10:30:16] "GET / HTTP/1.1" 200 -
+2021-12-07 10:30:17,486 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 10:30:17] "[36mGET /static/footer.css HTTP/1.1[0m" 304 -
+2021-12-07 10:30:17,491 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 10:30:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 10:30:27,343 INFO models Thread-5 : Info level log
+2021-12-07 10:30:27,344 WARNING models Thread-5 : Warning level log
+2021-12-07 10:30:27,357 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 10:30:27] "GET /login/ HTTP/1.1" 200 -
+2021-12-07 10:30:27,369 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 10:30:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 10:30:35,347 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 10:30:35] "[35m[1mPOST /loginsuccess HTTP/1.1[0m" 201 -
+2021-12-07 10:55:58,812 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 10:55:59,950 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 10:55:59,963 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 10:56:00,317 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 10:56:05,250 INFO models Thread-2 : Info level log
+2021-12-07 10:56:05,250 WARNING models Thread-2 : Warning level log
+2021-12-07 10:56:05,260 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 10:56:05] "GET /login/ HTTP/1.1" 200 -
+2021-12-07 10:56:05,666 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 10:56:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 10:56:14,885 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 10:56:14] "[35m[1mPOST /loginsuccess HTTP/1.1[0m" 201 -
+2021-12-07 11:06:49,234 INFO models Thread-7 : Info level log
+2021-12-07 11:06:49,234 WARNING models Thread-7 : Warning level log
+2021-12-07 11:06:49,235 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 11:06:49] "GET /login/ HTTP/1.1" 200 -
+2021-12-07 11:06:49,276 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 11:06:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 11:06:56,508 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Dec/2021 11:06:56] "[35m[1mPOST /loginsuccess HTTP/1.1[0m" 201 -
+2021-12-07 11:07:38,519 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 11:07:38,636 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 11:07:39,894 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 11:07:39,913 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 11:07:40,276 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 11:07:52,421 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 11:07:52] "GET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicHJhc2hhbnRAeHl6LmNvbSIsImV4cCI6MTYzODg1NjMxNn0.M_GJFpOJOIninCC_-Hk7gUlJlDX8wXOyd5Zl4y7RhkQ HTTP/1.1" 200 -
+2021-12-07 11:08:04,957 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 11:08:04] "[31m[1mGET /dashboard?jwt=ehJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicHJhc2hhbnRAeHl6LmNvbSIsImV4cCI6MTYzODg1NjMxNn0.M_GJFpOJOIninCC_-Hk7gUlJlDX8wXOyd5Zl4y7RhkQ HTTP/1.1[0m" 401 -
+2021-12-07 11:08:26,279 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 11:08:26] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+2021-12-07 11:09:44,586 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2021 11:09:44] "GET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYXZpbmFzaEB4eXouY29tIiwiZXhwIjoxNjM4ODU2MzE2fQ.SJPsE9HwH9nncXscCdCaZyn-l7-qVCQnZAloM1OHZNE HTTP/1.1" 200 -
+2021-12-07 11:10:28,008 INFO werkzeug Thread-7 : 127.0.0.1 - - [07/Dec/2021 11:10:28] "[31m[1mGET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYXZpbmFzaEB4eXouY29tIiwiZXhwIjoxNjM4ODU2MzE2fQ.wzwhaLLwcQLqYqVOwpwX65tYZhyIjV5V2GYdFeQ8asE HTTP/1.1[0m" 401 -
+2021-12-07 11:10:42,518 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 11:10:42,593 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-07 11:10:43,715 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-07 11:10:43,731 INFO werkzeug MainThread :  * Debugger PIN: 558-730-330
+2021-12-07 11:10:44,176 INFO werkzeug Thread-1 :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-07 11:10:53,400 INFO models Thread-2 : Info level log
+2021-12-07 11:10:53,400 WARNING models Thread-2 : Warning level log
+2021-12-07 11:10:53,404 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2021 11:10:53] "GET /login/ HTTP/1.1" 200 -
+2021-12-07 11:10:53,990 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2021 11:10:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-07 11:11:01,258 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2021 11:11:01] "[35m[1mPOST /loginsuccess HTTP/1.1[0m" 201 -
+2021-12-07 11:11:36,956 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2021 11:11:36] "[31m[1mGET /dashboard?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicHJhc2hhbnRAeHl6LmNvbSIsImV4cCI6MTYzODg1NTY3Nn0.MF5880xWFeqg8e-CHKl161hA-u0J11omULjckBZ3KiY HTTP/1.1[0m" 401 -
+2021-12-07 11:13:04,122 INFO werkzeug MainThread :  * Detected change in 'D:\\HeroVired\\Backend\\FlaskSearchEngine\\app.py', reloading
+2021-12-07 11:13:04,211 INFO werkzeug MainThread :  * Restarting with stat
