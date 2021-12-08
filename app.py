@@ -24,7 +24,12 @@ app.config['SECRET_KEY'] = 'keyissecured12123'
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
-        token = request.args.get('jwt') 
+        token = request.args.get('jwt')
+
+
+        # convert it to headers
+        #cookies or local storage for storing local data(token)
+
         # return 401 if token is not passed
         if not token:
             return jsonify({'message' : 'Token is missing !!'}), 401
@@ -66,6 +71,12 @@ def loginPage():
     app.logger.warning('Warning level log')
     return render_template('login.html')
 
+@app.route('/admin/')
+def adminPage():
+    app.logger.info('Info level log')
+    app.logger.warning('Warning level log')
+    return render_template('admin.html')
+
 
 #creating register page
 @app.route('/register/')
@@ -79,63 +90,45 @@ def registerSuccess():
     # app.logger.info('Info level log')
     # app.logger.warning('Warning level log')
     if request.method == "POST":
-        id = request.form.get('id')
+        name = request.form.get('name')
         email = request.form.get('email')
         password = request.form.get('password')
-        name = request.form.get('name')
-        username=request.form.get('username')
+
         #hashing the password before storing
         hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
         hashedPassword = hashedPassword.hexdigest()
 
-        entry = Users(id=id,email=email,password=hashedPassword,name=name,username=username)
+        entry = Users(name=name,email=email,password=hashedPassword)
         db.session.add(entry)
         db.session.commit()
     return render_template('login.html')
 
-@app.route('/loginsuccess', methods=['POST'])
-def loginSucess():
-    if request.method == 'POST':
-        email = request.form.get('email')
-        password = request.form.get('password')
-        #hashing the input and comparing the hash
-        hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
-        hashedPassword = hashedPassword.hexdigest()
-        result = db.session.query(Users).filter(Users.email==email, Users.password==hashedPassword)
-        for row in result:
-            if (len(row.email)!=0):
-                print(row.email)
-                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
-                print("Token ",token)
-                return make_response(jsonify({'jwt' : token}), 201)
-    return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
+
 @app.route('/adminlogin' , methods=['POST'])
 def adminlogin():
     if request.method == 'POST':
         email = request.form.get('email')
         password = request.form.get('password')
         #hashing the input and comparing the hash
-        hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
-        hashedPassword = hashedPassword.hexdigest()
+        # hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
+        # hashedPassword = hashedPassword.hexdigest()
         result = db.session.query(Admins).filter(Admins.email==email, Admins.password==password)
+        print(result)
         for row in result:
             if (len(row.email)!=0):
                 print(row.email)
-                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
+                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=30)}, app.config['SECRET_KEY'])
                 print("Token ",token)
-                return make_response(jsonify({'jwt' : token}), 201)
+                return render_template('adminupdate.html')
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
-@app.route('/admin/update')
-def update():
-    return render_template('adminupdate.html')
 
-@app.route('/admin/updatesuccess',methods=['POST'])
+@app.route('/admin/updatesuccess',methods=['GET','POST'])
 @token_required
 def adminUpdate(current_user):
     if request.method == "POST":
-        id = request.form.get('name')
-        title = request.form.get('email')
-        tags = request.form.get('password')
+        id = request.form.get('id')
+        title = request.form.get('title')
+        tags = request.form.get('tags')
         categories = request.form.get('categories')
         link = request.form.get('link')
         type = request.form.get('type')
@@ -147,6 +140,26 @@ def adminUpdate(current_user):
         db.session.commit()
 
     return render_template('dashboard.html', data=current_user)
+
+@app.route('/loginsuccess', methods=['POST'])
+def loginSucess():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+        #hashing the input and comparing the hash
+        hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
+        hashedPassword = hashedPassword.hexdigest()
+        result = db.session.query(Users).filter(Users.email==email, Users.password==hashedPassword)
+        print(result)
+        for row in result:
+            if (len(row.email)!=0):
+                print(row.email)
+                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
+                print("Token ",token)
+                return make_response(jsonify({'jwt' : token}), 201)
+    return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
+
+
 @app.route('/dashboard')
 @token_required
 def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=
