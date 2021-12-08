@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Flask</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    
+    <body style="text-align: center; margin-top: 150px;">
+    <form action="/registersuccess" method="POST">
+      <input type="text" name="name" placeholder="Name"><br>
+      <input type="email" name="email" placeholder="email@xyz.com"><br>
+      <input type="password" name="password" placeholder="Password"><br>
+      <input type="submit" id="Submit" value="Register">
+    </form>
+  
+  
+  
+  </body>
+</html>
